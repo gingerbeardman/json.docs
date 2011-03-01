@@ -1,0 +1,275 @@
+/* yui reset.css */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	vertical-align: baseline;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+
+/* custom */
+html {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font: normal normal normal 1.2em/1.3em Arial, sans-serif;
+	color: #333;
+	background: #fff;
+	margin: 1em;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+em {
+	font-style: italic;
+}
+
+h1 {
+	font: normal normal normal 2.2em/1.4em Arial, sans-serif;
+	border-bottom: 2px solid #333;
+	padding-top: 0.5em;
+	margin-bottom: 0.5em;
+	clear: left;
+}
+
+h2 {
+	font: normal normal normal 1.0em/1.4em Arial, sans-serif;
+	margin-bottom: 0.25em;
+	color: #999;
+}
+
+h3 {
+	font-size: 1em;
+	margin-bottom: 0.25em;
+	color: #999;
+	text-transform: capitalize;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li.active a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 0em;
+}
+
+.nav, #content {
+	float: left;
+}
+
+.nav {
+	display: block;
+	margin-right: 2em;
+	width: 10em;
+	font-size: 0.8em;
+	font: normal normal normal 1.0em/1.3em Arial, sans-serif;
+}
+
+.nav ul {
+	margin-bottom: 1em;
+}
+
+.nav ul li.indent {
+	margin-left: 0.6em;
+}
+
+#content {
+	position: absolute;
+	left: 13em;
+	right: 1em;
+}
+
+#content div.rounded {
+	margin-bottom: 1em;
+	padding: 0.5em;
+	background: #ddd;
+}
+
+#content div.outline {
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+#content div.rounded:not(#examplewrap), #intro {
+	font: normal normal normal 1.2em/1.0em Arial, sans-serif;
+}
+
+.breadcrumbs {
+	float: left;
+	margin-bottom: 0em;
+	font: normal normal normal 1.0em/1.3em Arial, sans-serif;
+}
+
+.breadcrumbs li {
+	display: inline;
+	margin-right: 0.5em;
+}
+
+.breadcrumbs, .breadcrumbs li a {
+	color: #999;
+}
+
+.breadcrumbs li a:hover {
+	color: #333;
+}
+
+#left, h1 {
+	clear: left;
+}
+
+div.text {
+	font: normal normal normal 1.2em/1.2em Arial, sans-serif;
+	margin-bottom: 1em;
+}
+
+div.text a {
+/*	text-decoration: underline;*/
+	font-style: italic;
+}
+
+.rounded, pre {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+pre {
+	font: normal normal normal 1.2em/1.0em "Courier New", Courier;
+	display: block;
+	background: #333;
+	color: #0c0;
+	padding: 1em;
+	font-size: 1em;
+}
+
+#notice {
+	background: #ff7;
+	padding: 0.8em 1em;
+	margin: -0.9em -0.9em 1em -0.9em;
+	border-bottom: 1px solid #dda;
+	font: normal normal normal 1.2em/1.5em Arial, sans-serif;
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0.0, rgba(0,0,0,0)),
+	    color-stop(0.8, rgba(0,0,0,0)),
+	    color-stop(1.0, rgba(0,0,0,0.1))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgba(0,0,0,0) 0%,
+	    rgba(0,0,0,0) 80%,
+	    rgba(0,0,0,0.1) 100%
+	);
+}
+
+#hidenotice {
+	float: right;
+}
+
+form {
+	float: right;
+	width: 20em;
+	text-align: right;
+	font: normal normal normal 1.0em/1.3em Arial, sans-serif;
+	margin: 0;
+	color: #999;
+}
+
+input#search {
+	width: 15em;
+	font-size: 0.9em;
+	margin: 0;
+	vertical-align: text-top;
+}
+
+/*
+search results
+*/
+ul.jsonSuggest {
+	position: absolute;
+	border: 1px solid #999;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	font-size: 1em;
+	text-align: left;
+	color: #333;
+}
+
+ul.jsonSuggest li.ui-menu-item {
+	margin: 0;
+	position: relative;
+	height: auto;
+	cursor: pointer;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+ul.jsonSuggest li.ui-menu-item a {
+	display: block;
+	padding: 0.25em 0.5em;
+}
+
+ul.jsonSuggest li.ui-menu-item a.ui-state-hover {
+	background-color: #333;
+	color: #fff;
+}
+
+ul.jsonSuggest li.ui-menu-item strong {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+pre::-moz-selection {
+	color: #eee;
+	background: #0b0;
+}
+
+pre::selection {
+	color: #eee;
+	background: #0b0;
+}
