@@ -16,9 +16,9 @@ To add your own docs to the system, we do the following:
 1. push new content onto the searchData array
 2. define new content data to be included in the navigation
 3. define new modules to be included in the navigation
-4. include this .js file in the main doc .html file, using:
-
+4. include this .js file in the main doc .html file, using:  
 `<script type="text/javascript" charset="utf-8" src="json-demo.js"></script>`  
+
 ...and that's it!
 
 **Note** it might be easier if you auto generate your JSON data!
