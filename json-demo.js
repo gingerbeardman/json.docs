@@ -80,8 +80,8 @@ var demoData = {
 			"name": "demo.module",
 			"link": "#"
 		}, {
-			"name": "App.ClassName",
-			"link": "App.ClassName"
+			"name": "Module.ClassName",
+			"link": "Module.ClassName"
 		}],
 		"definition": [{
 			"heading": "Method <strong>ClassName</strong>",
