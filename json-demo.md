@@ -13,7 +13,7 @@ Introductory text for module top level.
 
 
 
-#demo.module/Dummy
+#Dummy
 
 ##Syntax
 Global **Dummy**
@@ -23,7 +23,7 @@ Description of global.
 
 
 
-#demo.module/FunctionName
+#FunctionName
 Introductory text for function.
 
 ##Syntax
@@ -40,12 +40,12 @@ Description of function.
 
 
 
-#demo.module/Module
+#Module
 Introductory text for class.
 
 
 
-#demo.module/Module.ClassName
+#Module.ClassName
 Introductory text for method.
 
 ##Syntax
