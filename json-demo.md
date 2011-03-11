@@ -33,7 +33,7 @@ Function **FunctionName**
 Description of function.
 
 ##See Also
-- Classname
+- ClassName
 
 ##Example
 	Import mojo
